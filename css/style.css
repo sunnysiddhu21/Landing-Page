@@ -1,0 +1,207 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+  @media (min-width: 1200px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+  }
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.carousel { 
+    position: relative; 
+    width: 500px; 
+    height: 250px; 
+    overflow: hidden; 
+    background-color: #cdcdcd; 
+} 
+  
+.carousel-item .slide-image { 
+    width: 500px; 
+    height: 250px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+} 
+  
+.carousel-item { 
+    position: absolute; 
+    width: 100%; 
+    height: 270px; 
+    border: none; 
+    top: 0; 
+    left: 100%; 
+} 
+  
+.carousel-item.active { 
+    left: 0; 
+    transition: all 0.3s ease-out; 
+} 
+  
+.carousel-item div { 
+    height: 100%; 
+} 
+
+  
+.red { 
+    background-color: red; 
+} 
+  
+.green { 
+    background-color: green; 
+} 
+  
+.yellow { 
+    background-color: yellow; 
+} 
+  
+.violet { 
+    background-color: violet; 
+}
+
+.message-box {
+    margin: 1.5rem;
+    padding: 0.8rem;
+    text-align: center;
+  }
+  
+  .message-box h1 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  
+  .message-box input {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+/* Hero Section Styles */
+#hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Add styles for other sections as needed */
+
+/* CTA Section Styles */
+#cta {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0.2rem;
+  }
+
+  .price-box {
+    border: solid #333 3px;
+    border-radius: 2px;
+    text-align: center;
+  }
+  
+  .price-box:first-child {
+    margin-right: 1.2rem;
+  }
+  
+  .price-box:last-child {
+    margin-left: 1.2rem;
+  }
+  
+  .price-box h3 {
+    background-color: #ddd;
+    font-size: 1.05rem;
+    padding: 1rem;
+  }
+  
+  .price-box h2 {
+    padding: 1rem;
+  }
+  
+  .price-box p {
+    padding: 0 4rem 1rem;
+  }
+  
+  .price-box .btn {
+    display: inline-block;
+    margin: 1rem;
+  }
+
+  /*  */
+
+.btn {
+    display: inline-block;
+    padding: 0.4rem 1.5rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #f1c40f;
+  }
+  
+
