@@ -15,7 +15,6 @@ Welcome to the Awesome Product Landing Page repository! This repository contains
 
 - Clean and responsive design
 - Showcase your fitness equipment or accessories
-- Parallax effect for a dynamic background
 - Easy navigation with a user-friendly layout
 - Customizable sections for product details, testimonials, and more
 
