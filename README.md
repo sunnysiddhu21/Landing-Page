@@ -7,7 +7,7 @@ Welcome to the Awesome Product Landing Page repository! This repository contains
 
 ## Screenshot
 
-[![Product Landing Page](
+[Product Landing Page]
 
 ![Screenshot (424)](https://github.com/sunnysiddhu21/Landing-Page/assets/119279854/225f8b42-e5d3-453a-9677-c6f4bc95d25f)
 
